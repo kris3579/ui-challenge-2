@@ -1,0 +1,90 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 35px;
+}
+
+section p {
+  font-weight: bolder;
+}
+
+select, #textInput {
+  width: 100%; 
+}
+
+#radio, #checkBox {
+  position: relative;
+  height: 85px;
+}
+
+.spriteUnchecked {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -158px -239px;
+	width: 161px;
+  height: 160px;
+  transform: scale(0.35);
+  position: absolute;
+  top: -35%;
+  left: -6%;
+}
+
+.spriteChecked {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -381px -239px;
+	width: 161px;
+  height: 160px;
+  transform: scale(0.35);
+  position: absolute;
+  top: -35%;
+  left: 4%;
+}
+
+.spriteEmptyRadio {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+  height: 166px;
+  transform: scale(0.35);
+  position: absolute;
+  top: -35%;
+  left: -6%;
+}
+
+.spriteFullRadio {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+  height: 166px;
+  transform: scale(0.35);
+  position: absolute;
+  top: -35%;
+  left: 4%;
+}
+
+.spriteUpArrow {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -1035px -280px;
+	width: 77px;
+  height: 77px;
+  transform: scale(0.35);
+}
+
+.spriteDownArrow {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -1143px -280px;
+	width: 76px;
+  height: 77px;
+  transform: scale(0.35);
+}
+
+#button {
+  background-color: rgb(190, 187, 183);
+  padding: 10px;
+}
+
+#button:hover {
+  background-color: rgb(112, 110, 108)
+}
