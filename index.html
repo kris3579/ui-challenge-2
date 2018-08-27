@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ui Challenge 2</title>
+    <link rel="stylesheet" href="css/base.css">
+  </head>
+  <body>
+    <header>
+      <h2>UI Challenge - Custom Form Elements</h2>
+    </header>
+    <main>
+      <section>
+        <p>text input</p>
+        <div>
+          <input id="textInput" type="text" placeholder="placeholder text">
+        </div>
+        <p id="redP">please enter a valid username</p>
+      </section>
+
+      <section id="selectBox">
+        <p>select box</p>
+        <div>
+          <select name="selectDropdown" id="selectDropdown" plac>
+            <option value="" disabled selected hidden>please select an option...</option>
+            <option value="">option 1</option>
+            <option value="">option 2</option>
+            <option value="">option 3</option>
+            <option value="">option 4</option>
+            <option value="">option 5</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="checkBox">
+        <p>checkbox</p>
+          <div class="spriteUnchecked"></div>
+          <div class="spriteChecked"></div>
+      </section>
+
+      <section id="radio">
+        <p>radio</p>
+        <div class="spriteEmptyRadio"></div>
+        <div class="spriteFullRadio"></div>
+      </section>
+
+      <section id="buttons">
+        <p>buttons</p>
+        <div>
+          <input id="button" type="button" value="submit">
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
